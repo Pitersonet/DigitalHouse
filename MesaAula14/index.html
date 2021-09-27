@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadados -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Título da página (aparece na aba) -->
+    <title>Mesa de Trabalho 14</title>
+  </head>
+
+  <body>
+    <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+    <div>
+      <h1 id="titulo">Faça seu Pedido</h1>
+      <br />
+    </div>
+
+    <!-- Início do formulário -->
+    <form>
+      <fieldset class="grupo">
+        <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+        <div class="campo">
+          <label for="nome"><strong>Nome</strong></label>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+
+        <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+        <div class="campo">
+          <label for="sobrenome"><strong>Sobrenome</strong></label>
+          <input type="text" name="sobrenome" id="sobrenome" required />
+        </div>
+      </fieldset>
+
+      <!-- Campo de email com-->
+      <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <!-- Campo de Docês com 3 opções para escolha (select option) e css de classe "campo" -->
+      <div class="campo">
+        <label for="Docês"
+          ><strong>Escolha os docês do seu carrinho de compras</strong></label
+        >
+        <select id="Docês" required>
+          <option selected disabled value="">Selecione sua opção</option>
+          <option>Paçoca</option>
+          <option>Cocada</option>
+          <option>Brownie</option>
+          <option>Pé de moleque</option>
+          <option>Suspiro</option>
+          <option>Bala de goma</option>
+        </select>
+      </div>
+
+      <div id="check">
+        <label><strong>Selecione a forma de pagamento</strong></label
+        ><br /><br />
+        <input
+          type="checkbox"
+          id="forma de pagamento1"
+          name="forma de pagamento1"
+          value="Dinheiro"checked
+        />
+        <label for="forma de pagamento"> Dinheiro</label>
+        <input
+          type="checkbox"
+          id="forma de pagamento2"
+          name="forma de pagamento2"
+          value="Debito"
+        />
+        <label for="forma de pagamento2"> Debito</label>
+        <input
+          type="checkbox"
+          id="forma de pagamento3"
+          name="forma de pagamento3"
+          value="Credito"
+        />
+        <label for="forma de pagamento3"> Credito</label>
+        <input
+          type="checkbox"
+          id="forma de pagamento4"
+          name="forma de pagamento4"
+          value="Pix"
+        />
+        <label for="forma de pagamento4"> Pix</label>
+      </div>
+      <!-- Caixa de texto -->
+      <div class="campo">
+        <br />
+        <label for="Algo sobre você ou sua compra."
+          ><strong>Escreva algo que precisamos saber aqui!</strong></label
+        >
+        <textarea
+          rows="6"
+          cols="50"
+          id="Algo sobre você ou sua compra."
+          name="Algo sobre você ou sua compra."
+        ></textarea>
+      </div>
+
+      <!-- Botão para enviar o formulário -->
+      <button class="botao" type="submit" onsubmit="">Enviar</button>
+      <button class="botao1" type="reset" onreset="">Limpar</button>
+    </form>
+  </body>
+</html>

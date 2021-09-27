@@ -1,0 +1,50 @@
+body{
+  background-image: url(https://www.extra-imagens.com.br/Control/ArquivoExibir.aspx?IdArquivo=1411056616);
+}
+
+a:link {
+  background-color: rgb(252, 148, 30);
+}
+
+  a:visited {
+  background-color: rgba(241, 133, 32, 0.89);
+}
+
+
+a:hover {
+  background-color: turquoise;
+}
+
+
+a:active {
+  background-color: rgb(0, 255, 128);
+}
+
+h2::first-letter{
+  font-size: 500%;
+  color: rgba(255, 136, 0, 0.616);
+}
+
+.nome:focus {
+  color: rgb(255, 0, 0)
+}
+
+
+h4:nth-child(2n+3) {
+  background:rgb(255, 238, 0);
+}
+
+
+input[type="text"]:enabled{
+
+    background:rgb(252, 148, 30);
+}
+
+.nome{
+    font-size: large;
+    width: 250px;
+}
+
+button{
+   width: 660px;
+}

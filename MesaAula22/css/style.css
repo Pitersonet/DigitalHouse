@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #000;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: #ff9900;
+  }
+  
+  body {
+
+    background-color: #5c3904;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-areas:
+      'header header'
+      'aside main'
+      'footer footer'
+    ;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  body header {
+    grid-area: header;
+    background-color: #ff9900;
+    box-sizing: border-box;
+    box-shadow: rgb(165, 164, 164) 0 1px 4px 1px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+    height: 25vh;
+  }
+  body header img {
+    max-height: 100px;
+  }
+  
+  body aside {
+    background-color: #5c3904;
+    grid-area: aside;
+    font-weight: bold;
+    height: 70vh;
+  
+  }
+  body aside ul li {
+    margin: 1rem 0;
+    transition: 300ms;
+    padding: .2rem 0;
+    color: #ffffff;
+  }
+  body aside ul li:hover {
+    background-color: #fff;
+  }
+  body aside ul li a {
+    text-transform: capitalize;
+    padding: .2rem .4rem;
+  }
+  
+  body main {
+    background-color: #fdf9f6c7;
+    grid-area: main;
+    padding: 3rem;
+  }
+  body main h1 {
+    display: inline-block;
+    width: 100%;
+    height: 42vh;
+    background-image: url('https://d1uz88p17r663j.cloudfront.net/resized/5c7cc1ed19c17958aaeb3a8ad6dfd94a_brownie-framboesa-receitas-nestle_1200_600.jpg');
+    background-size: cover;
+    background-position: 50% 53%;
+    border-radius: 20px;
+  }
+  body main h2 {
+    padding: .3rem 0;
+  }
+  body main p {
+    text-align: left;
+  }
+  
+  body footer {
+    background-color: #ff9900;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+  }
