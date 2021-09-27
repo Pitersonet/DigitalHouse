@@ -9,6 +9,9 @@
   border: solid 3px black;
 }
 .cont2 {
+  position: relative;
+  left: 250px;
+  bottom: 203px;
   background-color: rgb(255, 0, 0);
   padding: 15px;
   width: 180px;
@@ -16,6 +19,9 @@
   border: solid 3px black;
 }
 .cont3 {
+  position: relative;
+  left: 500px;
+  bottom: 403px;
   background-color: rgb(178, 34, 154);
   padding: 15px;
   width: 180px;
@@ -23,6 +29,9 @@
   border: solid 3px black;
 }
 .cont4 {
+  position: relative;
+  left: 750px;
+  bottom: 603px;
   background-color: rgb(34, 178, 41);
   padding: 15px;
   width: 180px;

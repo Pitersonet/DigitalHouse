@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Mesa de Trabalho Forms</title>
+    </head>
+
+    <body>  
+        <img src="img/logo13.jpg" alt="Logo da empresa">
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Faça seu Orçamento</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Qual o Ramo da sua marca?</strong></label>
+                <label>
+                    <input type="radio" name="dev" value="Tecnologia"checked>Tecnologia
+                </label>
+                <label>
+                    <input type="radio" name="dev" value="Comércio">Comércio
+                </label>
+                <label>
+                    <input type="radio" name="dev" value="Serviços">Serviços
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Qual o tamanho da Empresa?</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Grande</option>
+                  <option>Média</option>
+                  <option>Pequena</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Caracteristicas que deseja na sua logo:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="caracteristica1" value="Somente o nome">
+                    <label for="caracteristica1"> Somente o nome</label>
+                    <input type="checkbox" id="tecnologia2" name="caracteristica2" value="Nome mais Logo">
+                    <label for="caracteristica2"> Nome mais Logo</label>
+                    <input type="checkbox" id="tecnologia3" name="caracteristica3" value="Tamanho do logo">
+                    <label for="caracteristica3"> Tamanho do logo</label>
+                    <input type="checkbox" id="tecnologia4" name="caracteristica4" value="Pequeno">
+                    <label for="caracteristica4"> Pequeno</label>
+                    <input type="checkbox" id="tecnologia5" name="caracteristica5" value="Médio">
+                    <label for="caracteristica5"> Médio</label>
+                    <input type="checkbox" id="tecnologia6" name="caracteristica6" value="Grande">
+                    <label for="caracteristica6"> Grande</label>
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="marca"><strong>Conte um pouco mais da sua marca: </strong></label>
+                <textarea rows="6" style="width: 26em" id="marca" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Enviar</button>
+            <button class="botao1" type="reset" onreset="">Limpar</button>           
+
+        </form>
+
+    </body>
+
+</html>
+
+
+
+
