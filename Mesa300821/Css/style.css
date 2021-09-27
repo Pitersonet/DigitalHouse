@@ -1,0 +1,34 @@
+header{
+    border-radius: 20%;
+}
+
+h1,h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+}
+
+body{
+    background-image: url(https://gooutside.com.br/wp-content/uploads/sites/3/2020/03/metade-das-praias-do-mundo-pode-desaparecer-ate-o-final-do-seculo-aponta-estudo.jpg);
+    background-repeat: no-repeat;
+    background-size: 1366px 650px;
+}
+
+ div{
+     
+     height: 240px;
+}
+
+body {
+    text-align: center
+ }
+
+ button{
+     margin-top: 40px;
+     width: 130px;
+     height: 50px;
+     border-radius: 15px;
+     background-color: rgba(255, 209, 6, 0.685);
+     font-size: 22px;
+ }
+ 

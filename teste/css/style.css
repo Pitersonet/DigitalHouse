@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box ;
+}
+.cont1 {
+  background-color: rgb(0, 62, 179);
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+  border: solid 3px black;
+}
+.cont2 {
+  background-color: rgb(255, 0, 0);
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+  border: solid 3px black;
+}
+.cont3 {
+  background-color: rgb(178, 34, 154);
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+  border: solid 3px black;
+}
+.cont4 {
+  background-color: rgb(34, 178, 41);
+  padding: 15px;
+  width: 180px;
+  height: 180px;
+  border: solid 3px black;
+}
